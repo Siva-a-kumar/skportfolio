@@ -13,6 +13,10 @@ function App() {
     <div className="App">
      <Header/>
      <Hero/>
+     {/* <div className='flex justify-end bg-red-50  pr-10   '> 
+     <a href='#home' className='flex justify-center bg-primary h-10 w-10  hover:border-2 border-white    rounded-full  sticky top-0 bottom-0 '><p className='py-2'>Up!</p></a>
+     </div> */}
+
      <About/>
      <Project/>
      <Resume/>

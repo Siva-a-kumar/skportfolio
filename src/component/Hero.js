@@ -6,10 +6,11 @@ export default function Hero(){
         twitter:'https://twitter.com/SivaKum38120589?t=BVARLNlO4SbOlMLSl2n02A&s=09',
         facebook:'https://www.facebook.com/people/Siva/pfbid02jUt8bFArVmeXWacB25hTy23JrUKacC7UxM9wund3BdQzB4jDvbrZCxCefgeoUkzgl/?mibextid=ZbWKwL',
         linkedin:'https://www.linkedin.com/in/sivakumar-a-16046a2b8/'
+
     }
-   return <section className='flex flex-col md:flex-row px-5 py-32 bg-primary justify-center'>
-    <div className='w-1/2 md:w-full flex-col justify-end'>
-    <h1 className=' text-white text-4xl font-hero-font'>Hi,<br/>Im  <span className='text-black'>sk</span>siva
+   return <section className='flex flex-col md:flex-row px-5 py-20  bg-image justify-center ' id='home'>
+    <div className='w-full md:w-1/2 flex-col justify-end'>
+    <h1 className=' text-[#FFCDA2] text-4xl font-hero-font'>Hi,<br/>Im  <span className='text-[#5B7B7A]'>sk</span>siva
     <p className='text-2xl w-full'>{config.subtitle}</p>
     </h1>
     <div className='flex py-10 '>
@@ -19,6 +20,6 @@ export default function Hero(){
     </div>
     </div>
 
-    <img className='md:w-1/3  rounded-full ring-black ring-offset-1 ring-4 shadow-2xl shadow-gray-900 ' src={HeroImg}/>
+    <img className='md:w-1/3 relative bottom-20 rounded-full ring-[#FFCDA2] ring-offset-1 ring-4 shadow-2xl shadow-[#5B7B7A] ' src={HeroImg}/>
    </section>
 }

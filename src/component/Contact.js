@@ -6,11 +6,11 @@ export default function Contact(){
         phone:'9360646496',
         email:'sksiva9360@gmail.com'
     }
-    return<section id="contact" className='flex flex-col md:flex-row bg-primary p-5 py-40'>
+    return<section id="contact" className='flex flex-col md:flex-row font-hero-font text-[#FFCDA2] p-5 py-20'>
        
         <div className='md:w-1/2 flex flex-row justify-end'>
-            <div className='flex flex-col  text-white'>
-       <h1 className='text-4xl border-b-4 border-secondry mb-5 w-[130px] font-bold'>Contact</h1>
+            <div className='flex flex-col '>
+       <h1 className='text-4xl border-b-4 border-[#5B7B7A] mb-5 w-[130px] font-bold'>Contact</h1>
        <p className='pb-5'>If you want to discuss more in details, please contact</p>
        <div className='flex-col align-middle'>
                <a className=' hover:text-white inline-block pr-2' href='#'><MdAlternateEmail size={20}/></a>
@@ -26,7 +26,7 @@ export default function Contact(){
             </div >
         </div>
         <div className='md:w-1/2 py-5 flex justify-center'>
-        <img  className='w-[300px] rounded-xl' src={ContcatImg}/>
+        <img  className='w-[300px] rounded-xl shadow-[#5B7B7A]' src={ContcatImg}/>
         </div>
     </section>
 }
