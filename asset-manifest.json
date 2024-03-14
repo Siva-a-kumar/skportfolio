@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/skportfolio/static/css/main.af5a9000.css",
+    "main.js": "/skportfolio/static/js/main.bfe82cf1.js",
+    "static/media/IMG_20230113_234951.jpg": "/skportfolio/static/media/IMG_20230113_234951.43e5006f0c1f2cca15f8.jpg",
+    "static/media/about.png": "/skportfolio/static/media/about.619ff0b319a55d0c05b1.png",
+    "static/media/resume.jpg": "/skportfolio/static/media/resume.40d9ec3d0701d254f50f.jpg",
+    "static/media/food-ecommerce.jpg": "/skportfolio/static/media/food-ecommerce.326353bf18adc9f60576.jpg",
+    "static/media/ecommerce-websites.jpg": "/skportfolio/static/media/ecommerce-websites.a5d17e54a5ffb19ff686.jpg",
+    "static/media/contect.jpeg": "/skportfolio/static/media/contect.3589d02eab2042478571.jpeg",
+    "static/media/website-blog.jpg": "/skportfolio/static/media/website-blog.34169abf2d417858685b.jpg",
+    "index.html": "/skportfolio/index.html",
+    "main.af5a9000.css.map": "/skportfolio/static/css/main.af5a9000.css.map",
+    "main.bfe82cf1.js.map": "/skportfolio/static/js/main.bfe82cf1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af5a9000.css",
+    "static/js/main.bfe82cf1.js"
+  ]
+}
